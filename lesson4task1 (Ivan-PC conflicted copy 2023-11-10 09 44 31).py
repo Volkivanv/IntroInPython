@@ -9,11 +9,3 @@ my_list_2 = [2, 7, 12, 3]
 my_list_3 = list(set(my_list_1) - set(my_list_2))
 
 print(my_list_3)
-# классический способ
-a = [1, 1, 1, 2, 2, 3, 4]
-b = [2, 4, 5]
-for number in a[:]:
-    if number in b:
-        a.remove(number)
-
-print(a)

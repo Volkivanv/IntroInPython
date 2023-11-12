@@ -12,10 +12,3 @@ print(my_list_1)
 # my_list_1 = [2, 2, 5, 12, 8, 2, 12]
 my_list_2 = list(set(my_list_1))
 print(my_list_2)
-
-newList = []
-for i in my_list_1:
-    if my_list_1.count(i) == 1:
-        newList.append(i)
-
-print(newList)
